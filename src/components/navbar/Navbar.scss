@@ -1,0 +1,24 @@
+.header {
+    position: sticky;
+    background: #ddd;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        gap: 40px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    &__link {
+        color: #000;
+    }
+
+    .active {
+        color: rgb(21, 0, 255);
+        text-decoration: underline;
+    }
+}
